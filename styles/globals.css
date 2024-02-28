@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import './spinner/spinner.css';
+@import './input/input.css';
+@import './admin/input/input.css';
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+tspan {
+  fill: white;
+}
+
+line {
+  stroke: white !important;
+}
+
+.MuiChartsLegend-mark {
+  rx: 100%;
+  ry: 100%;
+}
+
+@import './client/input.css';
