@@ -102,7 +102,7 @@ const userBasket = () => {
                             
 
                             {
-                              basketData.length !== 0 ? (
+                              basketData?.length !== 0 ? (
                                 <div>
                                   <div className='flex justify-between'>
                                     <div className='flex gap-2 items-center text-[#D63626] text-[16px] font-medium mb-[12px]'>
@@ -195,7 +195,7 @@ const userBasket = () => {
                                       />
                                   </div>
                                 </div>
-                              ) : <img className='w-[600px] h-[700px] object-cover' src="/client/basket/a.svg" alt="" />
+                              ) : <img className='w-[500px] h-[550px] object-cover' src="/client/basket/a.svg" alt="" />
                             }
 
                             

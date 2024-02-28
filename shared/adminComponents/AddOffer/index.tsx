@@ -180,7 +180,7 @@ const AddOffer: React.FC<MenuTypes> = ({ right, callBack, headTitle }) => {
                     callBack={callBack}
                 />
                 <Button
-                    value={"Create  Category"}
+                    value={"Create Offer"}
                     color={"#FFF"}
                     size={"18px"}
                     background={"#C035A2"}

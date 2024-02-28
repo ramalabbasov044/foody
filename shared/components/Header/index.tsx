@@ -162,7 +162,7 @@ export const Header = ({ isLogin , isBasket , isAvatar , isName , isBottom }:hea
                                         ))
                                     }
                                     {
-                                        restaurants.length == 0 ? <p>Tapilmadi</p> : <></>
+                                        restaurants?.length == 0 ? <p>Tapilmadi</p> : <></>
                                     }
                                 </div>
                             ) : <></>

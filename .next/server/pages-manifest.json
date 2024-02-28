@@ -1,0 +1,16 @@
+{
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js",
+  "/Admin/History": "pages/Admin/History.js",
+  "/api/offer": "pages/api/offer.js",
+  "/Admin/Offer": "pages/Admin/Offer.js",
+  "/Admin/Orders": "pages/Admin/Orders.js",
+  "/api/order": "pages/api/order.js",
+  "/Admin/Category": "pages/Admin/Category.js",
+  "/api/order/history": "pages/api/order/history.js",
+  "/api/restuarants": "pages/api/restuarants.js",
+  "/api/category": "pages/api/category.js",
+  "/Admin/Restaurants": "pages/Admin/Restaurants.js",
+  "/client/restaurants": "pages/client/restaurants.js"
+}
