@@ -12,25 +12,15 @@
   ],
   "rootMainFiles": [],
   "pages": {
-    "/Admin/Category": [
+    "/": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/Admin/Category.js"
+      "static/chunks/pages/index.js"
     ],
-    "/Admin/History": [
+    "/Admin/Products": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/Admin/History.js"
-    ],
-    "/Admin/Offer": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/Admin/Offer.js"
-    ],
-    "/Admin/Orders": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/Admin/Orders.js"
+      "static/chunks/pages/Admin/Products.js"
     ],
     "/Admin/Restaurants": [
       "static/chunks/webpack.js",
@@ -46,6 +36,26 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
+    ],
+    "/client/basket": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/client/basket.js"
+    ],
+    "/client/login": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/client/login.js"
+    ],
+    "/client/register": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/client/register.js"
+    ],
+    "/client/restaurants": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/client/restaurants.js"
     ]
   },
   "ampFirstPages": []

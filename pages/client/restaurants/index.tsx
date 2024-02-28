@@ -91,6 +91,7 @@ export default function Restaurants() {
                                         alt="pizza"
                                         width={35}
                                         height={28}
+                                        className='h-[28px]'
                                     />
                                     <p className="text-[#333] text-[20px] font-semibold">
                                         {
