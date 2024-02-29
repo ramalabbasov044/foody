@@ -54,7 +54,8 @@ export default function Restaurants() {
     const sendRestaurant = (detail:any) => {
         try {
             setActiveRestaurant(detail)
-            push("/client/basket")
+            
+            push(`/client/basket`)
         }catch (err) { 
             console.log({ err });
         }

@@ -122,6 +122,11 @@ export const Header = ({ isLogin , isBasket , isAvatar , isName , isBottom }:hea
                                     t('faq')
                                 }
                             </li>
+                            <li onClick={() => push("/client/offer")} className="cursor-pointer text-[#828282] hover:text-[#D63626]">
+                                {
+                                    t('cOffer')
+                                }
+                            </li>
                         </ul>
 
                     </div>
@@ -216,6 +221,8 @@ export const Header = ({ isLogin , isBasket , isAvatar , isName , isBottom }:hea
                                 </p>
                             ) : <></>
                         }
+
+
                     </div>
                 </div>  
             </div>

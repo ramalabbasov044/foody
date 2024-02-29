@@ -59,7 +59,9 @@ const resources = {
 				"Offer": "Offer",
 				"History": "History",
 				"Logout": "Logout",
-				"Select": "Select"
+				"Select": "Select",
+				"cOffer": "Add Advertising",
+				"Request": "Requests"
 			}
 	},
 	az: {
@@ -120,7 +122,9 @@ const resources = {
 				"Offer": "Təklif",
 				"History": "Tarix",
 				"Logout": "Çıxış",
-				"Select": "Seçin"
+				"Select": "Seçin",
+				"cOffer": "Reklam Elave edin",
+				"Request": "Sorğular"
 			}
 	}
 }

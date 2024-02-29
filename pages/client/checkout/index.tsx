@@ -230,7 +230,7 @@ const Checkout = () => {
                                             }
 
                                             {
-                                              basketData.length == 0 ? (
+                                              basketData?.length == 0 ? (
                                                 <p className='text-[#828282]'>
                                                   Heleki hec bir sifarişiniz yoxdur
                                                 </p>

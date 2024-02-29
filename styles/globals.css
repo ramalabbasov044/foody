@@ -62,3 +62,7 @@ input[type='radio']:before {
 input[type='radio']:checked:before {
   background: #6FCF97;
 }
+
+.a[type="radio"] {
+  display: none;
+}

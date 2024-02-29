@@ -11,6 +11,8 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { useGlobalStore } from "../provider/provider";
 import { useRouter } from "next/router";
 import { useTranslation } from "react-i18next";
+import { onSnapshot, collection, deleteDoc, doc, setDoc } from 'firebase/firestore';
+import { db } from "../server/configs/firebase";
 
 
 
@@ -30,21 +32,25 @@ const Home = () => {
         getOfferData();
     }, []);
 
+    const adversitingCollectionRef = collection(db, 'Adversitings');
 
-    const getRestaurantData = async () => {
-        const res = await getRestuarants();
-        setRestaurantData(res?.data.result.data);
+    const getAdversitingData = async () => {
+        const unsub = onSnapshot(adversitingCollectionRef, (querySnapshot) => {
+            const items: any = [];
+            querySnapshot.forEach((doc) => {
+              items.push({...doc.data(), id: doc.id});
+            });
+            setRestaurantData(items);
+          });
+      
+          return () => {
+            unsub();
+          };
     }
 
     useEffect(() => {
-        getRestaurantData();
+        getAdversitingData();
     }, []);
-    
-    const handleData = (item:any) => {
-        setActiveRestaurant(item)
-        push("/client/basket")
-    }
-
 
     return (
         <div className="bg-white">
@@ -59,11 +65,11 @@ const Home = () => {
             </div>
 
             <main className="p-[30px] mb-[300px]">
-                {/* <section className=" relative" id="">
+                <section className=" relative" id="">
                     <div className="banner bg-white h-[121px] py-4 px-4 max-w-[1440px] flex gap-4">
                         <Swiper
                           spaceBetween={10}
-                          slidesPerView={7}
+                          slidesPerView={2}
                           autoplay={{
                             delay: 2500,
                             disableOnInteraction: false,
@@ -75,7 +81,7 @@ const Home = () => {
                             {
                                 restaurantData?.map((item:any) => (
                                     <SwiperSlide>
-                                        <div onClick={() => handleData(item)} className="cursor-pointer w-[73px] relative h-[73px]  text-[12px] text-center rounded-full flex justify-center items-center">
+                                        <div className="cursor-pointer w-[73px] relative h-[73px]  text-[12px] text-center rounded-full flex justify-center items-center">
                                             <img
                                                 src={item.img_url}
                                                 className="absolute w-[73px] border-[0.5px] border-[#dbdbdb] p-[2px] object-cover h-[73px] rounded-full z-5"
@@ -87,7 +93,7 @@ const Home = () => {
                         
                         </Swiper>
                     </div>
-                </section> */}
+                </section>
 
                 <section className="bg-white pt-[50px] w-full flex justify-center" id="features">
                     <div className="flex w-full flex-col justify-center items-center text-center max-w-[1440px] ">
