@@ -1,4 +1,4 @@
-Project Name
+Foody App
 
 
   Description:
