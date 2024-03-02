@@ -92,9 +92,9 @@ export default function Restaurants() {
                                         alt="pizza"
                                         width={35}
                                         height={28}
-                                        className='h-[28px]'
+                                        className='w-[35px] h-[35px] rounded-full'
                                     />
-                                    <p className="text-[#333] text-[20px] font-semibold">
+                                    <p className="text-[#333] text-[20px] font-semibold whitespace-nowrap max-w-[120px] overflow-x-scroll">
                                         {
                                             item.name
                                         }

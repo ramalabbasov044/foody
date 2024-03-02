@@ -10,6 +10,7 @@ const resources = {
 				"loginSaveTitle": "Sign In",
 				"save": "Save",
 				"total": "Total",
+				"score": "Average Site Score", 
 				
 				"profile": "Profile",
 				"upload": 'upload',
@@ -77,6 +78,7 @@ const resources = {
 				"aboutD": "Lorem ipsum layoutların və vizual maketlərin önizlənməsi üçün qrafik, çap və nəşriyyat sənayesində geniş istifadə olunan yertutan mətndir. Lorem ipsum layoutların və vizual maketlərin önizlənməsi üçün qrafik, çap və nəşriyyat sənayesində geniş istifadə olunan yertutan mətndir. Lorem ipsum yertutandır. planların və vizual maketlərin önizlənməsi üçün qrafik, çap və nəşriyyat sənayesində geniş istifadə olunan mətn.",
 				"home": "Ana Səhifə",
 				"restaurants": "Restoranlar",
+				"score": "Ortalama Saytin Puani", 
 				"about": "Haqqımızda",
 				"howitworks": "Necə işləyir",
 				"programming":  "Proqramlaşdırma",

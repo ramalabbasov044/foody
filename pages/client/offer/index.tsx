@@ -16,6 +16,7 @@ export default function Restaurants() {
     const [formData, setFormData] = useState<any>({
         name: "",
         description: "",
+        url: ""
     });
 
      //! Input OnChange Function
@@ -59,12 +60,13 @@ export default function Restaurants() {
     const colletionRef = collection(db, 'InviteOffers');
 
     const saveData = () => {
-        if(formData.name == "" || formData.description == "" || IMG == ""){
+        if(formData.name == "" || formData.description == "" || formData.url == "" || IMG == ""){
             swal("Error","Formu Doldurun","error")
         }else {
             const newOffer: any = {
                 name: formData.name,
                 description: formData.description,
+                url: formData.url,
                 img_url: IMG
             };
     
@@ -132,6 +134,10 @@ export default function Restaurants() {
                                     <Label value={"Description"} forId={"description"} />
                                     <Input type={"text"} id={"description"} name={"description"} placeholder={"Enter Description"} value={formData.description} onInputChange={handleInputChange} />
                                 </div>
+                                <div className='flex flex-col w-full'>
+                                    <Label value={"Reclam Link"} forId={"url"} />
+                                    <Input type={"text"} id={"url"} name={"url"} placeholder={"Enter Reclam Link"} value={formData.url} onInputChange={handleInputChange} />
+                                </div>
                                 <div className="w-full mt-5">
                                     <Button
                                         value={"Send Request"}
@@ -153,7 +159,7 @@ export default function Restaurants() {
                     <div className="w-1/2 pt-24">
                         <img
                             src={IMG}
-                            alt="Add Offer Image"
+                            alt="Add Adversiting Image"
                             className="w-full h-[500px] object-cover rounded-3xl"
                         />
 

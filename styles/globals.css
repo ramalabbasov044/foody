@@ -66,3 +66,24 @@ input[type='radio']:checked:before {
 .a[type="radio"] {
   display: none;
 }
+.p-rating {
+  display: flex;
+  gap: 20px;
+}
+
+.rating input[type='radio'] {
+  display: none;
+}
+
+.p-rating-item-active svg path {
+  fill: orange !important;
+}
+
+.p-rating-item svg path {
+  fill: orange !important;
+}
+
+.p-rating-item svg{
+  width: 22px !important;
+  height: 22px !important;
+}

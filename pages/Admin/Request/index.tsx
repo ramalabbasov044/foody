@@ -10,8 +10,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faXmark , faCheck } from '@fortawesome/free-solid-svg-icons'
 import { createOffer } from "../../../services";
 import swal from "sweetalert";
+import { useRouter } from "next/router";
 
 const AdminOffers: NextPage = () => {
+  const { push } = useRouter()
   const { t } = useTranslation()
   const [offers,setOffers] = useState([])
   const colletionRef = collection(db, 'InviteOffers');
@@ -93,6 +95,7 @@ const AdminOffers: NextPage = () => {
                           <th className=" border-t p-5">Image</th>
                           <th className=" border-t p-5">Name</th>
                           <th className=" border-t p-5">Slug</th>
+                          <th className=" border-t p-5">Url</th>
                           <th className=" border-t p-5">Accept</th>
                         </tr>
                       </thead> 
@@ -124,6 +127,11 @@ const AdminOffers: NextPage = () => {
                                     item.description
                                   }
                               </td>
+                              <td onClick={() => push(item.url)} className="border-t cursor-pointer underline text-center  p-1 max-w-[290px] overflow-x-auto whitespace-nowrap">
+                                  {
+                                    item.url
+                                  }
+                              </td>
                               <td className="border-t text-center flex gap-3 font-semibold justify-center items-center h-[54px]">
                                   <button onClick={() => deleteOffer(item.id) } className="border cursor-pointer border-red-700 rounded-full w-6 h-6 flex justify-center items-center text-red-700">
                                     <FontAwesomeIcon icon={faXmark} />
@@ -135,9 +143,20 @@ const AdminOffers: NextPage = () => {
                             </tr>
                         ))
                       }
+                      
                     </tbody>
                   }
                 </table>
+
+                {
+                  offers.length == 0 ? (
+                    <p className="text-[#fff] ml-5 text-[20px] font-semibold">
+                      Heleki Hec bir Data Yoxdur
+                    </p>
+                  ) :  (
+                    <></>
+                  )
+                }
               </div>
             </div>
           </div>

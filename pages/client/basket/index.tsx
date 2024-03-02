@@ -2,15 +2,16 @@ import React, { FC, useEffect, useState } from 'react';
 import { useRouter } from 'next/router';
 import { doc, onSnapshot, setDoc, collection } from 'firebase/firestore';
 import { useTranslation } from 'react-i18next';
-import { IoMdStar } from "react-icons/io";
 import OutlineButton from '../../../shared/components/OutlineButton ';
 import Button from "../../../shared/components/Button";
 import Header from "../../../shared/components/Header/index";
 import Footer from '../../../shared/components/Footer/index';
 import { useGlobalStore } from '../../../provider/provider';
-import { addBasket, getProducts, getBasket, deleteBasket, clearBasket } from '../../../services';
+import { addBasket, getProducts, getBasket, deleteBasket, clearBasket, getOrders } from '../../../services';
 import { db } from '../../../server/configs/firebase';
 import swal from 'sweetalert';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faThumbsUp } from '@fortawesome/free-solid-svg-icons'
 
 interface Comment {
   id: string;
@@ -127,30 +128,38 @@ const Basket: FC = () => {
 
   const colletionRef = collection(db, 'comments');
 
-  const addComment = () => {
-    if (localStorage.getItem("userInformation")) {
-      if (activeRestaurant.length == 0) {
-        swal("Error", "Comment Elave etmek ucun active restaurant daxil olun", "error");
-      } else if (commentValue.length == 0) {
-        swal("Error", "Comment Elave edin", "error");
+  const addComment = async () => {
+    const res:any = await getOrders()
+    console.log(res?.status);
+    
+    if(res?.data?.result?.data.length == 0){
+      swal("Error","Commentelave etmek ucun en azi bir sifaris etmelisiz")
+    }
+    else{
+      if (localStorage.getItem("userInformation")) {
+        if (activeRestaurant.length == 0) {
+          swal("Error", "Comment Elave etmek ucun active restaurant daxil olun", "error");
+        } else if (commentValue.length == 0) {
+          swal("Error", "Comment Elave edin", "error");
+        }
+        else {
+          let info: any = localStorage.getItem("userInformation");
+          const currentDate = new Date();
+  
+          const newSchool: Comment = {
+            id: activeRestaurant.id,
+            byName: JSON.parse(info)?.fullname,
+            comment: commentValue,
+            date: `${currentDate.getDate()}.${currentDate.getMonth() + 1}.${currentDate.getFullYear()}`
+          };
+  
+          const schoolRef = doc(colletionRef);
+          setDoc(schoolRef, newSchool);
+          setCommentValue("");
+        }
+      } else {
+        reLogin();
       }
-      else {
-        let info: any = localStorage.getItem("userInformation");
-        const currentDate = new Date();
-
-        const newSchool: Comment = {
-          id: activeRestaurant.id,
-          byName: JSON.parse(info)?.fullname,
-          comment: commentValue,
-          date: `${currentDate.getDate()}.${currentDate.getMonth() + 1}.${currentDate.getFullYear()}`
-        };
-
-        const schoolRef = doc(colletionRef);
-        setDoc(schoolRef, newSchool);
-        setCommentValue("");
-      }
-    } else {
-      reLogin();
     }
 
   };
@@ -168,6 +177,10 @@ const Basket: FC = () => {
       unsub();
     };
   }, []);
+
+  const addFavourites = (item:any) => {
+    console.log(item);
+  }
 
   return (
     <div className="bg-white">
@@ -400,7 +413,7 @@ const Basket: FC = () => {
           <div className='flex flex-col justify-center gap-3 max-w-[652px] w-full'>
             {
               comments.map((item: Comment) => (
-                <div className='flex justify-between items-center text-center py-2 border-b border-[#4F4F4F]'>
+                <div className='flex justify-between relative items-center text-center py-2 border-b border-[#4F4F4F]'>
                   <p className='text-black font-semibold'>
                     {
                       item.comment
