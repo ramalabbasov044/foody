@@ -17,11 +17,6 @@
       "static/chunks/main.js",
       "static/chunks/pages/index.js"
     ],
-    "/404": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/404.js"
-    ],
     "/Admin/Offer": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
@@ -32,11 +27,6 @@
       "static/chunks/main.js",
       "static/chunks/pages/Admin/Products.js"
     ],
-    "/Admin/Request": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/Admin/Request.js"
-    ],
     "/_app": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
@@ -46,6 +36,11 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
+    ],
+    "/client/about": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/client/about.js"
     ],
     "/client/basket": [
       "static/chunks/webpack.js",

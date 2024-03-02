@@ -65,33 +65,50 @@ const Home = () => {
             </div>
 
             <main className="p-[30px] mb-[300px]">
-                <section className=" relative" id="">
-                    <div className="banner bg-white h-[121px] py-4 px-4 max-w-[1440px] flex gap-4">
-                        <Swiper
-                          spaceBetween={10}
-                          slidesPerView={2}
-                          autoplay={{
-                            delay: 2500,
-                            disableOnInteraction: false,
-                          }}
-                          navigation={true}
-                          modules={[Autoplay, Pagination, Navigation]}
-                          className="mySwiper"
-                        >
-                            {
+                <section className=" relative justify-center" id="">
+                    <p className="text-[#4f4f4f]  text-center font-semibold text-[28px] mb-3">
+                        Our Reclams
+                    </p>
+                    <div className="banner bg-white  h-[121px] py-4 px-5  flex gap-4 justify-between">
+                        {
+                            restaurantData.length >= 4 ? (
+                                <Swiper
+                                spaceBetween={10}
+                                slidesPerView={2}
+                                autoplay={{
+                                    delay: 2500,
+                                    disableOnInteraction: false,
+                                }}
+                                navigation={true}
+                                modules={[Autoplay, Pagination, Navigation]}
+                                className="mySwiper"
+                                >
+                                    {
+                                        restaurantData?.map((item:any) => (
+                                            <SwiperSlide>
+                                                <div onClick={() => push(item.url)} className="cursor-pointer w-[73px] relative h-[73px]  text-[12px] text-center rounded-full flex justify-center items-center">
+                                                    <img
+                                                        src={item.img_url}
+                                                        className="absolute w-[73px] border-[0.5px] border-[#dbdbdb] p-[2px] object-cover h-[73px] rounded-full z-5"
+                                                    />
+                                                </div>
+                                            </SwiperSlide>
+                                        ))
+                                    }
+                                
+                                </Swiper>
+                            ) : (
                                 restaurantData?.map((item:any) => (
-                                    <SwiperSlide>
-                                        <div className="cursor-pointer w-[73px] relative h-[73px]  text-[12px] text-center rounded-full flex justify-center items-center">
-                                            <img
-                                                src={item.img_url}
-                                                className="absolute w-[73px] border-[0.5px] border-[#dbdbdb] p-[2px] object-cover h-[73px] rounded-full z-5"
-                                            />
-                                        </div>
-                                    </SwiperSlide>
+                                    <div onClick={() => push(item.url)} className="cursor-pointer w-[73px] relative h-[73px]  text-[12px] text-center rounded-full flex justify-center items-center">
+                                        <img
+                                            src={item.img_url}
+                                            className="absolute w-[73px] border-[0.5px] border-[#dbdbdb] p-[2px] object-cover h-[73px] rounded-full z-5"
+                                        />
+                                    </div>
                                 ))
-                            }
+                            )
+                        }
                         
-                        </Swiper>
                     </div>
                 </section>
 
