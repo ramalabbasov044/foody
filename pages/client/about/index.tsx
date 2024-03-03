@@ -72,8 +72,10 @@ const About = () => {
                       weight={500}
                       color={"#828282"}
                   />
-                  <div className='text-[#ffa500] text-[22px] flex flex-col gap-4'>
-                   {t("score")}: <Rating value={starCount} readOnly cancel={false} />
+                  <div className=' flex flex-col gap-4'>
+                   <p className="text-[#ffa500] text-[22px]">
+                    {t("score")}: {starCount.toFixed(0)}
+                   </p> <Rating value={starCount} readOnly cancel={false} />
                   </div>
                   
                 </div>
