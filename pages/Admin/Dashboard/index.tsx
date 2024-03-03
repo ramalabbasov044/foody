@@ -1,10 +1,9 @@
 import Header from "../../../shared/adminComponents/Header/Header";
 import SideBar from "../../../shared/adminComponents/SideBar/SideBar";
 
-import { BarChart } from '@mui/x-charts/BarChart';
-import { PieChart } from '@mui/x-charts/PieChart';
 import { useTranslation } from "react-i18next";
-
+import { LineChart, Line, CartesianGrid, XAxis, YAxis } from 'recharts';
+const data = [{name: 'Page A', uv: 400, pv: 2400, amt: 2400},{name: 'Page B', uv: 100, pv: 1000, amt: 2400},{name: 'Page C', uv: 300, pv: 1700, amt: 2400}];
 const Dashboard: React.FC = () => {
   const { t } = useTranslation()
   return (
@@ -14,7 +13,7 @@ const Dashboard: React.FC = () => {
       <div className='flex gap-x-4 justify-between relative'>
         <SideBar />
 
-        <div className="w-full flex justify-around gap-[30px]">
+        <div className="w-full flex gap-[30px]">
           <div className="bg-[#27283C] rounded-[14px] max-w-[472px] max-h-[472px] w-full px-[24px] py-[16px] flex text-left flex-col gap-14">
             <p className="text-[#C7C7C7] text-[20px] font-medium">
               {
@@ -23,39 +22,15 @@ const Dashboard: React.FC = () => {
             </p>
 
             <div className="w-full flex justify-center items-center">
-              <PieChart
-                series={[
-                  {
-                    data: [
-                      { id: 0, value: 10, label: 'Kfc' },
-                      { id: 1, value: 15, label: 'Mc Donalds' },
-                      { id: 2, value: 20, label: 'Papa Johns' },
-                    ],
-                  },
-                ]}
-                width={400}
-                height={200}
-              />
+              <LineChart width={600} height={300} data={data} margin={{ top: 5, right: 20, bottom: 5, left: 0 }}>
+                <Line type="monotone" dataKey="uv" stroke="#8884d8" />
+                <CartesianGrid stroke="#ccc" strokeDasharray="5 5" />
+                <XAxis dataKey="name" />
+                <YAxis />
+              </LineChart>
             </div>
           </div>
 
-          <div className="bg-[#27283C] rounded-[14px] max-w-[634px] w-full px-[24px] py-[16px] flex text-left flex-col gap-10">
-            <p className="text-[#C7C7C7] text-[20px] font-medium">
-                {
-                  t("ts")
-                }
-            </p>
-
-            <div className="w-full flex justify-center items-center">
-              <BarChart
-                xAxis={[{ scaleType: 'band', data: ['group A', 'group B', 'group C'] }]}
-                series={[{ data: [4, 3, 5] }, { data: [1, 6, 3] }, { data: [2, 5, 6] }]}
-                width={500}
-                height={300}
-                className="barChart"
-              />
-            </div>
-          </div>
         </div>
       </div>
     </div>

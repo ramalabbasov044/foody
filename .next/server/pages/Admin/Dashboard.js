@@ -12,6 +12,22 @@ exports.id = "pages/Admin/Dashboard";
 exports.ids = ["pages/Admin/Dashboard"];
 exports.modules = {
 
+/***/ "__barrel_optimize__?names=CartesianGrid,Line,LineChart,XAxis,YAxis!=!./node_modules/recharts/lib/index.js":
+/*!*****************************************************************************************************************!*\
+  !*** __barrel_optimize__?names=CartesianGrid,Line,LineChart,XAxis,YAxis!=!./node_modules/recharts/lib/index.js ***!
+  \*****************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Users_user_Desktop_foody_app_node_modules_recharts_lib_index_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/recharts/lib/index.js */ "./node_modules/recharts/lib/index.js");
+/* harmony reexport (unknown) */ var __WEBPACK_REEXPORT_OBJECT__ = {};
+/* harmony reexport (unknown) */ for(const __WEBPACK_IMPORT_KEY__ in _Users_user_Desktop_foody_app_node_modules_recharts_lib_index_js__WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== "default") __WEBPACK_REEXPORT_OBJECT__[__WEBPACK_IMPORT_KEY__] = () => _Users_user_Desktop_foody_app_node_modules_recharts_lib_index_js__WEBPACK_IMPORTED_MODULE_0__[__WEBPACK_IMPORT_KEY__]
+/* harmony reexport (unknown) */ __webpack_require__.d(__webpack_exports__, __WEBPACK_REEXPORT_OBJECT__);
+
+
+/***/ }),
+
 /***/ "./node_modules/next/dist/build/webpack/loaders/next-route-loader/index.js?kind=PAGES&page=%2FAdmin%2FDashboard&preferredRegion=&absolutePagePath=.%2Fpages%2FAdmin%2FDashboard%2Findex.tsx&absoluteAppPath=private-next-pages%2F_app&absoluteDocumentPath=private-next-pages%2F_document&middlewareConfigBase64=e30%3D!":
 /*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/next/dist/build/webpack/loaders/next-route-loader/index.js?kind=PAGES&page=%2FAdmin%2FDashboard&preferredRegion=&absolutePagePath=.%2Fpages%2FAdmin%2FDashboard%2Findex.tsx&absoluteAppPath=private-next-pages%2F_app&absoluteDocumentPath=private-next-pages%2F_document&middlewareConfigBase64=e30%3D! ***!
@@ -41,7 +57,7 @@ eval("__webpack_require__.a(module, async (__webpack_handle_async_dependencies__
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {\n__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _shared_adminComponents_Header_Header__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../shared/adminComponents/Header/Header */ \"./shared/adminComponents/Header/Header.tsx\");\n/* harmony import */ var _shared_adminComponents_SideBar_SideBar__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../shared/adminComponents/SideBar/SideBar */ \"./shared/adminComponents/SideBar/SideBar.tsx\");\n/* harmony import */ var _mui_x_charts_BarChart__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @mui/x-charts/BarChart */ \"@mui/x-charts/BarChart\");\n/* harmony import */ var _mui_x_charts_BarChart__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_mui_x_charts_BarChart__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var _mui_x_charts_PieChart__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @mui/x-charts/PieChart */ \"@mui/x-charts/PieChart\");\n/* harmony import */ var _mui_x_charts_PieChart__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_mui_x_charts_PieChart__WEBPACK_IMPORTED_MODULE_4__);\n/* harmony import */ var react_i18next__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-i18next */ \"react-i18next\");\nvar __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_shared_adminComponents_Header_Header__WEBPACK_IMPORTED_MODULE_1__, _shared_adminComponents_SideBar_SideBar__WEBPACK_IMPORTED_MODULE_2__, react_i18next__WEBPACK_IMPORTED_MODULE_5__]);\n([_shared_adminComponents_Header_Header__WEBPACK_IMPORTED_MODULE_1__, _shared_adminComponents_SideBar_SideBar__WEBPACK_IMPORTED_MODULE_2__, react_i18next__WEBPACK_IMPORTED_MODULE_5__] = __webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__);\n\n\n\n\n\n\nconst Dashboard = ()=>{\n    const { t } = (0,react_i18next__WEBPACK_IMPORTED_MODULE_5__.useTranslation)();\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n        className: \"px-[19px] min-h-screen bg-[#1E1E30]\",\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_shared_adminComponents_Header_Header__WEBPACK_IMPORTED_MODULE_1__[\"default\"], {}, void 0, false, {\n                fileName: \"/Users/user/Desktop/foody-app/pages/Admin/Dashboard/index.tsx\",\n                lineNumber: 12,\n                columnNumber: 7\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                className: \"flex gap-x-4 justify-between relative\",\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_shared_adminComponents_SideBar_SideBar__WEBPACK_IMPORTED_MODULE_2__[\"default\"], {}, void 0, false, {\n                        fileName: \"/Users/user/Desktop/foody-app/pages/Admin/Dashboard/index.tsx\",\n                        lineNumber: 15,\n                        columnNumber: 9\n                    }, undefined),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                        className: \"w-full flex justify-around gap-[30px]\",\n                        children: [\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                className: \"bg-[#27283C] rounded-[14px] max-w-[472px] max-h-[472px] w-full px-[24px] py-[16px] flex text-left flex-col gap-14\",\n                                children: [\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                                        className: \"text-[#C7C7C7] text-[20px] font-medium\",\n                                        children: t(\"Orders\")\n                                    }, void 0, false, {\n                                        fileName: \"/Users/user/Desktop/foody-app/pages/Admin/Dashboard/index.tsx\",\n                                        lineNumber: 19,\n                                        columnNumber: 13\n                                    }, undefined),\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                        className: \"w-full flex justify-center items-center\",\n                                        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_mui_x_charts_PieChart__WEBPACK_IMPORTED_MODULE_4__.PieChart, {\n                                            series: [\n                                                {\n                                                    data: [\n                                                        {\n                                                            id: 0,\n                                                            value: 10,\n                                                            label: \"Kfc\"\n                                                        },\n                                                        {\n                                                            id: 1,\n                                                            value: 15,\n                                                            label: \"Mc Donalds\"\n                                                        },\n                                                        {\n                                                            id: 2,\n                                                            value: 20,\n                                                            label: \"Papa Johns\"\n                                                        }\n                                                    ]\n                                                }\n                                            ],\n                                            width: 400,\n                                            height: 200\n                                        }, void 0, false, {\n                                            fileName: \"/Users/user/Desktop/foody-app/pages/Admin/Dashboard/index.tsx\",\n                                            lineNumber: 26,\n                                            columnNumber: 15\n                                        }, undefined)\n                                    }, void 0, false, {\n                                        fileName: \"/Users/user/Desktop/foody-app/pages/Admin/Dashboard/index.tsx\",\n                                        lineNumber: 25,\n                                        columnNumber: 13\n                                    }, undefined)\n                                ]\n                            }, void 0, true, {\n                                fileName: \"/Users/user/Desktop/foody-app/pages/Admin/Dashboard/index.tsx\",\n                                lineNumber: 18,\n                                columnNumber: 11\n                            }, undefined),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                className: \"bg-[#27283C] rounded-[14px] max-w-[634px] w-full px-[24px] py-[16px] flex text-left flex-col gap-10\",\n                                children: [\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                                        className: \"text-[#C7C7C7] text-[20px] font-medium\",\n                                        children: t(\"ts\")\n                                    }, void 0, false, {\n                                        fileName: \"/Users/user/Desktop/foody-app/pages/Admin/Dashboard/index.tsx\",\n                                        lineNumber: 43,\n                                        columnNumber: 13\n                                    }, undefined),\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                        className: \"w-full flex justify-center items-center\",\n                                        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_mui_x_charts_BarChart__WEBPACK_IMPORTED_MODULE_3__.BarChart, {\n                                            xAxis: [\n                                                {\n                                                    scaleType: \"band\",\n                                                    data: [\n                                                        \"group A\",\n                                                        \"group B\",\n                                                        \"group C\"\n                                                    ]\n                                                }\n                                            ],\n                                            series: [\n                                                {\n                                                    data: [\n                                                        4,\n                                                        3,\n                                                        5\n                                                    ]\n                                                },\n                                                {\n                                                    data: [\n                                                        1,\n                                                        6,\n                                                        3\n                                                    ]\n                                                },\n                                                {\n                                                    data: [\n                                                        2,\n                                                        5,\n                                                        6\n                                                    ]\n                                                }\n                                            ],\n                                            width: 500,\n                                            height: 300,\n                                            className: \"barChart\"\n                                        }, void 0, false, {\n                                            fileName: \"/Users/user/Desktop/foody-app/pages/Admin/Dashboard/index.tsx\",\n                                            lineNumber: 50,\n                                            columnNumber: 15\n                                        }, undefined)\n                                    }, void 0, false, {\n                                        fileName: \"/Users/user/Desktop/foody-app/pages/Admin/Dashboard/index.tsx\",\n                                        lineNumber: 49,\n                                        columnNumber: 13\n                                    }, undefined)\n                                ]\n                            }, void 0, true, {\n                                fileName: \"/Users/user/Desktop/foody-app/pages/Admin/Dashboard/index.tsx\",\n                                lineNumber: 42,\n                                columnNumber: 11\n                            }, undefined)\n                        ]\n                    }, void 0, true, {\n                        fileName: \"/Users/user/Desktop/foody-app/pages/Admin/Dashboard/index.tsx\",\n                        lineNumber: 17,\n                        columnNumber: 9\n                    }, undefined)\n                ]\n            }, void 0, true, {\n                fileName: \"/Users/user/Desktop/foody-app/pages/Admin/Dashboard/index.tsx\",\n                lineNumber: 14,\n                columnNumber: 7\n            }, undefined)\n        ]\n    }, void 0, true, {\n        fileName: \"/Users/user/Desktop/foody-app/pages/Admin/Dashboard/index.tsx\",\n        lineNumber: 11,\n        columnNumber: 5\n    }, undefined);\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Dashboard);\n\n__webpack_async_result__();\n} catch(e) { __webpack_async_result__(e); } });//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wYWdlcy9BZG1pbi9EYXNoYm9hcmQvaW5kZXgudHN4IiwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7Ozs7O0FBQW1FO0FBQ0c7QUFFcEI7QUFDQTtBQUNIO0FBRS9DLE1BQU1LLFlBQXNCO0lBQzFCLE1BQU0sRUFBRUMsQ0FBQyxFQUFFLEdBQUdGLDZEQUFjQTtJQUM1QixxQkFDRSw4REFBQ0c7UUFBSUMsV0FBVTs7MEJBQ2IsOERBQUNSLDZFQUFNQTs7Ozs7MEJBRVAsOERBQUNPO2dCQUFJQyxXQUFVOztrQ0FDYiw4REFBQ1AsK0VBQU9BOzs7OztrQ0FFUiw4REFBQ007d0JBQUlDLFdBQVU7OzBDQUNiLDhEQUFDRDtnQ0FBSUMsV0FBVTs7a0RBQ2IsOERBQUNDO3dDQUFFRCxXQUFVO2tEQUVURixFQUFFOzs7Ozs7a0RBSU4sOERBQUNDO3dDQUFJQyxXQUFVO2tEQUNiLDRFQUFDTCw0REFBUUE7NENBQ1BPLFFBQVE7Z0RBQ047b0RBQ0VDLE1BQU07d0RBQ0o7NERBQUVDLElBQUk7NERBQUdDLE9BQU87NERBQUlDLE9BQU87d0RBQU07d0RBQ2pDOzREQUFFRixJQUFJOzREQUFHQyxPQUFPOzREQUFJQyxPQUFPO3dEQUFhO3dEQUN4Qzs0REFBRUYsSUFBSTs0REFBR0MsT0FBTzs0REFBSUMsT0FBTzt3REFBYTtxREFDekM7Z0RBQ0g7NkNBQ0Q7NENBQ0RDLE9BQU87NENBQ1BDLFFBQVE7Ozs7Ozs7Ozs7Ozs7Ozs7OzBDQUtkLDhEQUFDVDtnQ0FBSUMsV0FBVTs7a0RBQ2IsOERBQUNDO3dDQUFFRCxXQUFVO2tEQUVQRixFQUFFOzs7Ozs7a0RBSVIsOERBQUNDO3dDQUFJQyxXQUFVO2tEQUNiLDRFQUFDTiw0REFBUUE7NENBQ1BlLE9BQU87Z0RBQUM7b0RBQUVDLFdBQVc7b0RBQVFQLE1BQU07d0RBQUM7d0RBQVc7d0RBQVc7cURBQVU7Z0RBQUM7NkNBQUU7NENBQ3ZFRCxRQUFRO2dEQUFDO29EQUFFQyxNQUFNO3dEQUFDO3dEQUFHO3dEQUFHO3FEQUFFO2dEQUFDO2dEQUFHO29EQUFFQSxNQUFNO3dEQUFDO3dEQUFHO3dEQUFHO3FEQUFFO2dEQUFDO2dEQUFHO29EQUFFQSxNQUFNO3dEQUFDO3dEQUFHO3dEQUFHO3FEQUFFO2dEQUFDOzZDQUFFOzRDQUN2RUksT0FBTzs0Q0FDUEMsUUFBUTs0Q0FDUlIsV0FBVTs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7QUFTMUI7QUFFQSxpRUFBZUgsU0FBU0EsRUFBQyIsInNvdXJjZXMiOlsid2VicGFjazovL2Zvb2R5LWFwcC8uL3BhZ2VzL0FkbWluL0Rhc2hib2FyZC9pbmRleC50c3g/MThkMiJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgSGVhZGVyIGZyb20gXCIuLi8uLi8uLi9zaGFyZWQvYWRtaW5Db21wb25lbnRzL0hlYWRlci9IZWFkZXJcIjtcbmltcG9ydCBTaWRlQmFyIGZyb20gXCIuLi8uLi8uLi9zaGFyZWQvYWRtaW5Db21wb25lbnRzL1NpZGVCYXIvU2lkZUJhclwiO1xuXG5pbXBvcnQgeyBCYXJDaGFydCB9IGZyb20gJ0BtdWkveC1jaGFydHMvQmFyQ2hhcnQnO1xuaW1wb3J0IHsgUGllQ2hhcnQgfSBmcm9tICdAbXVpL3gtY2hhcnRzL1BpZUNoYXJ0JztcbmltcG9ydCB7IHVzZVRyYW5zbGF0aW9uIH0gZnJvbSBcInJlYWN0LWkxOG5leHRcIjtcblxuY29uc3QgRGFzaGJvYXJkOiBSZWFjdC5GQyA9ICgpID0+IHtcbiAgY29uc3QgeyB0IH0gPSB1c2VUcmFuc2xhdGlvbigpXG4gIHJldHVybiAoXG4gICAgPGRpdiBjbGFzc05hbWU9XCJweC1bMTlweF0gbWluLWgtc2NyZWVuIGJnLVsjMUUxRTMwXVwiPlxuICAgICAgPEhlYWRlciAvPlxuXG4gICAgICA8ZGl2IGNsYXNzTmFtZT0nZmxleCBnYXAteC00IGp1c3RpZnktYmV0d2VlbiByZWxhdGl2ZSc+XG4gICAgICAgIDxTaWRlQmFyIC8+XG5cbiAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJ3LWZ1bGwgZmxleCBqdXN0aWZ5LWFyb3VuZCBnYXAtWzMwcHhdXCI+XG4gICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJiZy1bIzI3MjgzQ10gcm91bmRlZC1bMTRweF0gbWF4LXctWzQ3MnB4XSBtYXgtaC1bNDcycHhdIHctZnVsbCBweC1bMjRweF0gcHktWzE2cHhdIGZsZXggdGV4dC1sZWZ0IGZsZXgtY29sIGdhcC0xNFwiPlxuICAgICAgICAgICAgPHAgY2xhc3NOYW1lPVwidGV4dC1bI0M3QzdDN10gdGV4dC1bMjBweF0gZm9udC1tZWRpdW1cIj5cbiAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgIHQoXCJPcmRlcnNcIilcbiAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgPC9wPlxuXG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInctZnVsbCBmbGV4IGp1c3RpZnktY2VudGVyIGl0ZW1zLWNlbnRlclwiPlxuICAgICAgICAgICAgICA8UGllQ2hhcnRcbiAgICAgICAgICAgICAgICBzZXJpZXM9e1tcbiAgICAgICAgICAgICAgICAgIHtcbiAgICAgICAgICAgICAgICAgICAgZGF0YTogW1xuICAgICAgICAgICAgICAgICAgICAgIHsgaWQ6IDAsIHZhbHVlOiAxMCwgbGFiZWw6ICdLZmMnIH0sXG4gICAgICAgICAgICAgICAgICAgICAgeyBpZDogMSwgdmFsdWU6IDE1LCBsYWJlbDogJ01jIERvbmFsZHMnIH0sXG4gICAgICAgICAgICAgICAgICAgICAgeyBpZDogMiwgdmFsdWU6IDIwLCBsYWJlbDogJ1BhcGEgSm9obnMnIH0sXG4gICAgICAgICAgICAgICAgICAgIF0sXG4gICAgICAgICAgICAgICAgICB9LFxuICAgICAgICAgICAgICAgIF19XG4gICAgICAgICAgICAgICAgd2lkdGg9ezQwMH1cbiAgICAgICAgICAgICAgICBoZWlnaHQ9ezIwMH1cbiAgICAgICAgICAgICAgLz5cbiAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgIDwvZGl2PlxuXG4gICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJiZy1bIzI3MjgzQ10gcm91bmRlZC1bMTRweF0gbWF4LXctWzYzNHB4XSB3LWZ1bGwgcHgtWzI0cHhdIHB5LVsxNnB4XSBmbGV4IHRleHQtbGVmdCBmbGV4LWNvbCBnYXAtMTBcIj5cbiAgICAgICAgICAgIDxwIGNsYXNzTmFtZT1cInRleHQtWyNDN0M3QzddIHRleHQtWzIwcHhdIGZvbnQtbWVkaXVtXCI+XG4gICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgdChcInRzXCIpXG4gICAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgPC9wPlxuXG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInctZnVsbCBmbGV4IGp1c3RpZnktY2VudGVyIGl0ZW1zLWNlbnRlclwiPlxuICAgICAgICAgICAgICA8QmFyQ2hhcnRcbiAgICAgICAgICAgICAgICB4QXhpcz17W3sgc2NhbGVUeXBlOiAnYmFuZCcsIGRhdGE6IFsnZ3JvdXAgQScsICdncm91cCBCJywgJ2dyb3VwIEMnXSB9XX1cbiAgICAgICAgICAgICAgICBzZXJpZXM9e1t7IGRhdGE6IFs0LCAzLCA1XSB9LCB7IGRhdGE6IFsxLCA2LCAzXSB9LCB7IGRhdGE6IFsyLCA1LCA2XSB9XX1cbiAgICAgICAgICAgICAgICB3aWR0aD17NTAwfVxuICAgICAgICAgICAgICAgIGhlaWdodD17MzAwfVxuICAgICAgICAgICAgICAgIGNsYXNzTmFtZT1cImJhckNoYXJ0XCJcbiAgICAgICAgICAgICAgLz5cbiAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgIDwvZGl2PlxuICAgICAgICA8L2Rpdj5cbiAgICAgIDwvZGl2PlxuICAgIDwvZGl2PlxuXG4gICk7XG59XG5cbmV4cG9ydCBkZWZhdWx0IERhc2hib2FyZDsiXSwibmFtZXMiOlsiSGVhZGVyIiwiU2lkZUJhciIsIkJhckNoYXJ0IiwiUGllQ2hhcnQiLCJ1c2VUcmFuc2xhdGlvbiIsIkRhc2hib2FyZCIsInQiLCJkaXYiLCJjbGFzc05hbWUiLCJwIiwic2VyaWVzIiwiZGF0YSIsImlkIiwidmFsdWUiLCJsYWJlbCIsIndpZHRoIiwiaGVpZ2h0IiwieEF4aXMiLCJzY2FsZVR5cGUiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./pages/Admin/Dashboard/index.tsx\n");
+eval("__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {\n__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _shared_adminComponents_Header_Header__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../shared/adminComponents/Header/Header */ \"./shared/adminComponents/Header/Header.tsx\");\n/* harmony import */ var _shared_adminComponents_SideBar_SideBar__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../shared/adminComponents/SideBar/SideBar */ \"./shared/adminComponents/SideBar/SideBar.tsx\");\n/* harmony import */ var react_i18next__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-i18next */ \"react-i18next\");\n/* harmony import */ var _barrel_optimize_names_CartesianGrid_Line_LineChart_XAxis_YAxis_recharts__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! __barrel_optimize__?names=CartesianGrid,Line,LineChart,XAxis,YAxis!=!recharts */ \"__barrel_optimize__?names=CartesianGrid,Line,LineChart,XAxis,YAxis!=!./node_modules/recharts/lib/index.js\");\nvar __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_shared_adminComponents_Header_Header__WEBPACK_IMPORTED_MODULE_1__, _shared_adminComponents_SideBar_SideBar__WEBPACK_IMPORTED_MODULE_2__, react_i18next__WEBPACK_IMPORTED_MODULE_3__]);\n([_shared_adminComponents_Header_Header__WEBPACK_IMPORTED_MODULE_1__, _shared_adminComponents_SideBar_SideBar__WEBPACK_IMPORTED_MODULE_2__, react_i18next__WEBPACK_IMPORTED_MODULE_3__] = __webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__);\n\n\n\n\n\nconst data = [\n    {\n        name: \"Page A\",\n        uv: 400,\n        pv: 2400,\n        amt: 2400\n    },\n    {\n        name: \"Page B\",\n        uv: 100,\n        pv: 1000,\n        amt: 2400\n    },\n    {\n        name: \"Page C\",\n        uv: 300,\n        pv: 1700,\n        amt: 2400\n    }\n];\nconst Dashboard = ()=>{\n    const { t } = (0,react_i18next__WEBPACK_IMPORTED_MODULE_3__.useTranslation)();\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n        className: \"px-[19px] min-h-screen bg-[#1E1E30]\",\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_shared_adminComponents_Header_Header__WEBPACK_IMPORTED_MODULE_1__[\"default\"], {}, void 0, false, {\n                fileName: \"/Users/user/Desktop/foody-app/pages/Admin/Dashboard/index.tsx\",\n                lineNumber: 11,\n                columnNumber: 7\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                className: \"flex gap-x-4 justify-between relative\",\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_shared_adminComponents_SideBar_SideBar__WEBPACK_IMPORTED_MODULE_2__[\"default\"], {}, void 0, false, {\n                        fileName: \"/Users/user/Desktop/foody-app/pages/Admin/Dashboard/index.tsx\",\n                        lineNumber: 14,\n                        columnNumber: 9\n                    }, undefined),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                        className: \"w-full flex gap-[30px]\",\n                        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                            className: \"bg-[#27283C] rounded-[14px] max-w-[472px] max-h-[472px] w-full px-[24px] py-[16px] flex text-left flex-col gap-14\",\n                            children: [\n                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                                    className: \"text-[#C7C7C7] text-[20px] font-medium\",\n                                    children: t(\"Orders\")\n                                }, void 0, false, {\n                                    fileName: \"/Users/user/Desktop/foody-app/pages/Admin/Dashboard/index.tsx\",\n                                    lineNumber: 18,\n                                    columnNumber: 13\n                                }, undefined),\n                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                    className: \"w-full flex justify-center items-center\",\n                                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_barrel_optimize_names_CartesianGrid_Line_LineChart_XAxis_YAxis_recharts__WEBPACK_IMPORTED_MODULE_4__.LineChart, {\n                                        width: 600,\n                                        height: 300,\n                                        data: data,\n                                        margin: {\n                                            top: 5,\n                                            right: 20,\n                                            bottom: 5,\n                                            left: 0\n                                        },\n                                        children: [\n                                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_barrel_optimize_names_CartesianGrid_Line_LineChart_XAxis_YAxis_recharts__WEBPACK_IMPORTED_MODULE_4__.Line, {\n                                                type: \"monotone\",\n                                                dataKey: \"uv\",\n                                                stroke: \"#8884d8\"\n                                            }, void 0, false, {\n                                                fileName: \"/Users/user/Desktop/foody-app/pages/Admin/Dashboard/index.tsx\",\n                                                lineNumber: 26,\n                                                columnNumber: 17\n                                            }, undefined),\n                                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_barrel_optimize_names_CartesianGrid_Line_LineChart_XAxis_YAxis_recharts__WEBPACK_IMPORTED_MODULE_4__.CartesianGrid, {\n                                                stroke: \"#ccc\",\n                                                strokeDasharray: \"5 5\"\n                                            }, void 0, false, {\n                                                fileName: \"/Users/user/Desktop/foody-app/pages/Admin/Dashboard/index.tsx\",\n                                                lineNumber: 27,\n                                                columnNumber: 17\n                                            }, undefined),\n                                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_barrel_optimize_names_CartesianGrid_Line_LineChart_XAxis_YAxis_recharts__WEBPACK_IMPORTED_MODULE_4__.XAxis, {\n                                                dataKey: \"name\"\n                                            }, void 0, false, {\n                                                fileName: \"/Users/user/Desktop/foody-app/pages/Admin/Dashboard/index.tsx\",\n                                                lineNumber: 28,\n                                                columnNumber: 17\n                                            }, undefined),\n                                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_barrel_optimize_names_CartesianGrid_Line_LineChart_XAxis_YAxis_recharts__WEBPACK_IMPORTED_MODULE_4__.YAxis, {}, void 0, false, {\n                                                fileName: \"/Users/user/Desktop/foody-app/pages/Admin/Dashboard/index.tsx\",\n                                                lineNumber: 29,\n                                                columnNumber: 17\n                                            }, undefined)\n                                        ]\n                                    }, void 0, true, {\n                                        fileName: \"/Users/user/Desktop/foody-app/pages/Admin/Dashboard/index.tsx\",\n                                        lineNumber: 25,\n                                        columnNumber: 15\n                                    }, undefined)\n                                }, void 0, false, {\n                                    fileName: \"/Users/user/Desktop/foody-app/pages/Admin/Dashboard/index.tsx\",\n                                    lineNumber: 24,\n                                    columnNumber: 13\n                                }, undefined)\n                            ]\n                        }, void 0, true, {\n                            fileName: \"/Users/user/Desktop/foody-app/pages/Admin/Dashboard/index.tsx\",\n                            lineNumber: 17,\n                            columnNumber: 11\n                        }, undefined)\n                    }, void 0, false, {\n                        fileName: \"/Users/user/Desktop/foody-app/pages/Admin/Dashboard/index.tsx\",\n                        lineNumber: 16,\n                        columnNumber: 9\n                    }, undefined)\n                ]\n            }, void 0, true, {\n                fileName: \"/Users/user/Desktop/foody-app/pages/Admin/Dashboard/index.tsx\",\n                lineNumber: 13,\n                columnNumber: 7\n            }, undefined)\n        ]\n    }, void 0, true, {\n        fileName: \"/Users/user/Desktop/foody-app/pages/Admin/Dashboard/index.tsx\",\n        lineNumber: 10,\n        columnNumber: 5\n    }, undefined);\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Dashboard);\n\n__webpack_async_result__();\n} catch(e) { __webpack_async_result__(e); } });//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wYWdlcy9BZG1pbi9EYXNoYm9hcmQvaW5kZXgudHN4IiwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7O0FBQW1FO0FBQ0c7QUFFdkI7QUFDeUI7QUFDeEUsTUFBTVEsT0FBTztJQUFDO1FBQUNDLE1BQU07UUFBVUMsSUFBSTtRQUFLQyxJQUFJO1FBQU1DLEtBQUs7SUFBSTtJQUFFO1FBQUNILE1BQU07UUFBVUMsSUFBSTtRQUFLQyxJQUFJO1FBQU1DLEtBQUs7SUFBSTtJQUFFO1FBQUNILE1BQU07UUFBVUMsSUFBSTtRQUFLQyxJQUFJO1FBQU1DLEtBQUs7SUFBSTtDQUFFO0FBQzNKLE1BQU1DLFlBQXNCO0lBQzFCLE1BQU0sRUFBRUMsQ0FBQyxFQUFFLEdBQUdaLDZEQUFjQTtJQUM1QixxQkFDRSw4REFBQ2E7UUFBSUMsV0FBVTs7MEJBQ2IsOERBQUNoQiw2RUFBTUE7Ozs7OzBCQUVQLDhEQUFDZTtnQkFBSUMsV0FBVTs7a0NBQ2IsOERBQUNmLCtFQUFPQTs7Ozs7a0NBRVIsOERBQUNjO3dCQUFJQyxXQUFVO2tDQUNiLDRFQUFDRDs0QkFBSUMsV0FBVTs7OENBQ2IsOERBQUNDO29DQUFFRCxXQUFVOzhDQUVURixFQUFFOzs7Ozs7OENBSU4sOERBQUNDO29DQUFJQyxXQUFVOzhDQUNiLDRFQUFDYiwrR0FBU0E7d0NBQUNlLE9BQU87d0NBQUtDLFFBQVE7d0NBQUtYLE1BQU1BO3dDQUFNWSxRQUFROzRDQUFFQyxLQUFLOzRDQUFHQyxPQUFPOzRDQUFJQyxRQUFROzRDQUFHQyxNQUFNO3dDQUFFOzswREFDOUYsOERBQUNwQiwwR0FBSUE7Z0RBQUNxQixNQUFLO2dEQUFXQyxTQUFRO2dEQUFLQyxRQUFPOzs7Ozs7MERBQzFDLDhEQUFDdEIsbUhBQWFBO2dEQUFDc0IsUUFBTztnREFBT0MsaUJBQWdCOzs7Ozs7MERBQzdDLDhEQUFDdEIsMkdBQUtBO2dEQUFDb0IsU0FBUTs7Ozs7OzBEQUNmLDhEQUFDbkIsMkdBQUtBOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7QUFVdEI7QUFFQSxpRUFBZU0sU0FBU0EsRUFBQyIsInNvdXJjZXMiOlsid2VicGFjazovL2Zvb2R5LWFwcC8uL3BhZ2VzL0FkbWluL0Rhc2hib2FyZC9pbmRleC50c3g/MThkMiJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgSGVhZGVyIGZyb20gXCIuLi8uLi8uLi9zaGFyZWQvYWRtaW5Db21wb25lbnRzL0hlYWRlci9IZWFkZXJcIjtcbmltcG9ydCBTaWRlQmFyIGZyb20gXCIuLi8uLi8uLi9zaGFyZWQvYWRtaW5Db21wb25lbnRzL1NpZGVCYXIvU2lkZUJhclwiO1xuXG5pbXBvcnQgeyB1c2VUcmFuc2xhdGlvbiB9IGZyb20gXCJyZWFjdC1pMThuZXh0XCI7XG5pbXBvcnQgeyBMaW5lQ2hhcnQsIExpbmUsIENhcnRlc2lhbkdyaWQsIFhBeGlzLCBZQXhpcyB9IGZyb20gJ3JlY2hhcnRzJztcbmNvbnN0IGRhdGEgPSBbe25hbWU6ICdQYWdlIEEnLCB1djogNDAwLCBwdjogMjQwMCwgYW10OiAyNDAwfSx7bmFtZTogJ1BhZ2UgQicsIHV2OiAxMDAsIHB2OiAxMDAwLCBhbXQ6IDI0MDB9LHtuYW1lOiAnUGFnZSBDJywgdXY6IDMwMCwgcHY6IDE3MDAsIGFtdDogMjQwMH1dO1xuY29uc3QgRGFzaGJvYXJkOiBSZWFjdC5GQyA9ICgpID0+IHtcbiAgY29uc3QgeyB0IH0gPSB1c2VUcmFuc2xhdGlvbigpXG4gIHJldHVybiAoXG4gICAgPGRpdiBjbGFzc05hbWU9XCJweC1bMTlweF0gbWluLWgtc2NyZWVuIGJnLVsjMUUxRTMwXVwiPlxuICAgICAgPEhlYWRlciAvPlxuXG4gICAgICA8ZGl2IGNsYXNzTmFtZT0nZmxleCBnYXAteC00IGp1c3RpZnktYmV0d2VlbiByZWxhdGl2ZSc+XG4gICAgICAgIDxTaWRlQmFyIC8+XG5cbiAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJ3LWZ1bGwgZmxleCBnYXAtWzMwcHhdXCI+XG4gICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJiZy1bIzI3MjgzQ10gcm91bmRlZC1bMTRweF0gbWF4LXctWzQ3MnB4XSBtYXgtaC1bNDcycHhdIHctZnVsbCBweC1bMjRweF0gcHktWzE2cHhdIGZsZXggdGV4dC1sZWZ0IGZsZXgtY29sIGdhcC0xNFwiPlxuICAgICAgICAgICAgPHAgY2xhc3NOYW1lPVwidGV4dC1bI0M3QzdDN10gdGV4dC1bMjBweF0gZm9udC1tZWRpdW1cIj5cbiAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgIHQoXCJPcmRlcnNcIilcbiAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgPC9wPlxuXG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInctZnVsbCBmbGV4IGp1c3RpZnktY2VudGVyIGl0ZW1zLWNlbnRlclwiPlxuICAgICAgICAgICAgICA8TGluZUNoYXJ0IHdpZHRoPXs2MDB9IGhlaWdodD17MzAwfSBkYXRhPXtkYXRhfSBtYXJnaW49e3sgdG9wOiA1LCByaWdodDogMjAsIGJvdHRvbTogNSwgbGVmdDogMCB9fT5cbiAgICAgICAgICAgICAgICA8TGluZSB0eXBlPVwibW9ub3RvbmVcIiBkYXRhS2V5PVwidXZcIiBzdHJva2U9XCIjODg4NGQ4XCIgLz5cbiAgICAgICAgICAgICAgICA8Q2FydGVzaWFuR3JpZCBzdHJva2U9XCIjY2NjXCIgc3Ryb2tlRGFzaGFycmF5PVwiNSA1XCIgLz5cbiAgICAgICAgICAgICAgICA8WEF4aXMgZGF0YUtleT1cIm5hbWVcIiAvPlxuICAgICAgICAgICAgICAgIDxZQXhpcyAvPlxuICAgICAgICAgICAgICA8L0xpbmVDaGFydD5cbiAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgIDwvZGl2PlxuXG4gICAgICAgIDwvZGl2PlxuICAgICAgPC9kaXY+XG4gICAgPC9kaXY+XG5cbiAgKTtcbn1cblxuZXhwb3J0IGRlZmF1bHQgRGFzaGJvYXJkOyJdLCJuYW1lcyI6WyJIZWFkZXIiLCJTaWRlQmFyIiwidXNlVHJhbnNsYXRpb24iLCJMaW5lQ2hhcnQiLCJMaW5lIiwiQ2FydGVzaWFuR3JpZCIsIlhBeGlzIiwiWUF4aXMiLCJkYXRhIiwibmFtZSIsInV2IiwicHYiLCJhbXQiLCJEYXNoYm9hcmQiLCJ0IiwiZGl2IiwiY2xhc3NOYW1lIiwicCIsIndpZHRoIiwiaGVpZ2h0IiwibWFyZ2luIiwidG9wIiwicmlnaHQiLCJib3R0b20iLCJsZWZ0IiwidHlwZSIsImRhdGFLZXkiLCJzdHJva2UiLCJzdHJva2VEYXNoYXJyYXkiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./pages/Admin/Dashboard/index.tsx\n");
 
 /***/ }),
 
@@ -197,25 +213,344 @@ eval("__webpack_require__.a(module, async (__webpack_handle_async_dependencies__
 
 /***/ }),
 
-/***/ "@mui/x-charts/BarChart":
-/*!*****************************************!*\
-  !*** external "@mui/x-charts/BarChart" ***!
-  \*****************************************/
+/***/ "clsx":
+/*!***********************!*\
+  !*** external "clsx" ***!
+  \***********************/
 /***/ ((module) => {
 
 "use strict";
-module.exports = require("@mui/x-charts/BarChart");
+module.exports = require("clsx");
 
 /***/ }),
 
-/***/ "@mui/x-charts/PieChart":
-/*!*****************************************!*\
-  !*** external "@mui/x-charts/PieChart" ***!
-  \*****************************************/
+/***/ "eventemitter3":
+/*!********************************!*\
+  !*** external "eventemitter3" ***!
+  \********************************/
 /***/ ((module) => {
 
 "use strict";
-module.exports = require("@mui/x-charts/PieChart");
+module.exports = require("eventemitter3");
+
+/***/ }),
+
+/***/ "lodash/every":
+/*!*******************************!*\
+  !*** external "lodash/every" ***!
+  \*******************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("lodash/every");
+
+/***/ }),
+
+/***/ "lodash/find":
+/*!******************************!*\
+  !*** external "lodash/find" ***!
+  \******************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("lodash/find");
+
+/***/ }),
+
+/***/ "lodash/first":
+/*!*******************************!*\
+  !*** external "lodash/first" ***!
+  \*******************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("lodash/first");
+
+/***/ }),
+
+/***/ "lodash/flatMap":
+/*!*********************************!*\
+  !*** external "lodash/flatMap" ***!
+  \*********************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("lodash/flatMap");
+
+/***/ }),
+
+/***/ "lodash/get":
+/*!*****************************!*\
+  !*** external "lodash/get" ***!
+  \*****************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("lodash/get");
+
+/***/ }),
+
+/***/ "lodash/isBoolean":
+/*!***********************************!*\
+  !*** external "lodash/isBoolean" ***!
+  \***********************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("lodash/isBoolean");
+
+/***/ }),
+
+/***/ "lodash/isEqual":
+/*!*********************************!*\
+  !*** external "lodash/isEqual" ***!
+  \*********************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("lodash/isEqual");
+
+/***/ }),
+
+/***/ "lodash/isFunction":
+/*!************************************!*\
+  !*** external "lodash/isFunction" ***!
+  \************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("lodash/isFunction");
+
+/***/ }),
+
+/***/ "lodash/isNaN":
+/*!*******************************!*\
+  !*** external "lodash/isNaN" ***!
+  \*******************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("lodash/isNaN");
+
+/***/ }),
+
+/***/ "lodash/isNil":
+/*!*******************************!*\
+  !*** external "lodash/isNil" ***!
+  \*******************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("lodash/isNil");
+
+/***/ }),
+
+/***/ "lodash/isNumber":
+/*!**********************************!*\
+  !*** external "lodash/isNumber" ***!
+  \**********************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("lodash/isNumber");
+
+/***/ }),
+
+/***/ "lodash/isObject":
+/*!**********************************!*\
+  !*** external "lodash/isObject" ***!
+  \**********************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("lodash/isObject");
+
+/***/ }),
+
+/***/ "lodash/isPlainObject":
+/*!***************************************!*\
+  !*** external "lodash/isPlainObject" ***!
+  \***************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("lodash/isPlainObject");
+
+/***/ }),
+
+/***/ "lodash/isString":
+/*!**********************************!*\
+  !*** external "lodash/isString" ***!
+  \**********************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("lodash/isString");
+
+/***/ }),
+
+/***/ "lodash/last":
+/*!******************************!*\
+  !*** external "lodash/last" ***!
+  \******************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("lodash/last");
+
+/***/ }),
+
+/***/ "lodash/mapValues":
+/*!***********************************!*\
+  !*** external "lodash/mapValues" ***!
+  \***********************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("lodash/mapValues");
+
+/***/ }),
+
+/***/ "lodash/max":
+/*!*****************************!*\
+  !*** external "lodash/max" ***!
+  \*****************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("lodash/max");
+
+/***/ }),
+
+/***/ "lodash/maxBy":
+/*!*******************************!*\
+  !*** external "lodash/maxBy" ***!
+  \*******************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("lodash/maxBy");
+
+/***/ }),
+
+/***/ "lodash/memoize":
+/*!*********************************!*\
+  !*** external "lodash/memoize" ***!
+  \*********************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("lodash/memoize");
+
+/***/ }),
+
+/***/ "lodash/min":
+/*!*****************************!*\
+  !*** external "lodash/min" ***!
+  \*****************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("lodash/min");
+
+/***/ }),
+
+/***/ "lodash/minBy":
+/*!*******************************!*\
+  !*** external "lodash/minBy" ***!
+  \*******************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("lodash/minBy");
+
+/***/ }),
+
+/***/ "lodash/omit":
+/*!******************************!*\
+  !*** external "lodash/omit" ***!
+  \******************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("lodash/omit");
+
+/***/ }),
+
+/***/ "lodash/range":
+/*!*******************************!*\
+  !*** external "lodash/range" ***!
+  \*******************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("lodash/range");
+
+/***/ }),
+
+/***/ "lodash/some":
+/*!******************************!*\
+  !*** external "lodash/some" ***!
+  \******************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("lodash/some");
+
+/***/ }),
+
+/***/ "lodash/sortBy":
+/*!********************************!*\
+  !*** external "lodash/sortBy" ***!
+  \********************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("lodash/sortBy");
+
+/***/ }),
+
+/***/ "lodash/sumBy":
+/*!*******************************!*\
+  !*** external "lodash/sumBy" ***!
+  \*******************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("lodash/sumBy");
+
+/***/ }),
+
+/***/ "lodash/throttle":
+/*!**********************************!*\
+  !*** external "lodash/throttle" ***!
+  \**********************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("lodash/throttle");
+
+/***/ }),
+
+/***/ "lodash/uniqBy":
+/*!********************************!*\
+  !*** external "lodash/uniqBy" ***!
+  \********************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("lodash/uniqBy");
+
+/***/ }),
+
+/***/ "lodash/upperFirst":
+/*!************************************!*\
+  !*** external "lodash/upperFirst" ***!
+  \************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("lodash/upperFirst");
 
 /***/ }),
 
@@ -252,6 +587,28 @@ module.exports = require("react-dom");
 
 /***/ }),
 
+/***/ "react-is":
+/*!***************************!*\
+  !*** external "react-is" ***!
+  \***************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("react-is");
+
+/***/ }),
+
+/***/ "react-smooth":
+/*!*******************************!*\
+  !*** external "react-smooth" ***!
+  \*******************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("react-smooth");
+
+/***/ }),
+
 /***/ "react/jsx-dev-runtime":
 /*!****************************************!*\
   !*** external "react/jsx-dev-runtime" ***!
@@ -263,6 +620,17 @@ module.exports = require("react/jsx-dev-runtime");
 
 /***/ }),
 
+/***/ "recharts-scale":
+/*!*********************************!*\
+  !*** external "recharts-scale" ***!
+  \*********************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("recharts-scale");
+
+/***/ }),
+
 /***/ "sweetalert":
 /*!*****************************!*\
   !*** external "sweetalert" ***!
@@ -271,6 +639,39 @@ module.exports = require("react/jsx-dev-runtime");
 
 "use strict";
 module.exports = require("sweetalert");
+
+/***/ }),
+
+/***/ "tiny-invariant":
+/*!*********************************!*\
+  !*** external "tiny-invariant" ***!
+  \*********************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("tiny-invariant");
+
+/***/ }),
+
+/***/ "victory-vendor/d3-scale":
+/*!******************************************!*\
+  !*** external "victory-vendor/d3-scale" ***!
+  \******************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("victory-vendor/d3-scale");
+
+/***/ }),
+
+/***/ "victory-vendor/d3-shape":
+/*!******************************************!*\
+  !*** external "victory-vendor/d3-shape" ***!
+  \******************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("victory-vendor/d3-shape");
 
 /***/ }),
 
@@ -391,7 +792,7 @@ module.exports = require("zlib");
 var __webpack_require__ = require("../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, ["vendor-chunks/next","vendor-chunks/@swc","vendor-chunks/swiper"], () => (__webpack_exec__("./node_modules/next/dist/build/webpack/loaders/next-route-loader/index.js?kind=PAGES&page=%2FAdmin%2FDashboard&preferredRegion=&absolutePagePath=.%2Fpages%2FAdmin%2FDashboard%2Findex.tsx&absoluteAppPath=private-next-pages%2F_app&absoluteDocumentPath=private-next-pages%2F_document&middlewareConfigBase64=e30%3D!")));
+var __webpack_exports__ = __webpack_require__.X(0, ["vendor-chunks/next","vendor-chunks/@swc","vendor-chunks/swiper","vendor-chunks/recharts"], () => (__webpack_exec__("./node_modules/next/dist/build/webpack/loaders/next-route-loader/index.js?kind=PAGES&page=%2FAdmin%2FDashboard&preferredRegion=&absolutePagePath=.%2Fpages%2FAdmin%2FDashboard%2Findex.tsx&absoluteAppPath=private-next-pages%2F_app&absoluteDocumentPath=private-next-pages%2F_document&middlewareConfigBase64=e30%3D!")));
 module.exports = __webpack_exports__;
 
 })();
