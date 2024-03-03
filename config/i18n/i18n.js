@@ -62,7 +62,8 @@ const resources = {
 				"Logout": "Logout",
 				"Select": "Select",
 				"cOffer": "Add Advertising",
-				"Request": "Requests"
+				"Request": "Requests",
+				"ts": "Total Salary"
 			}
 	},
 	az: {
@@ -126,7 +127,8 @@ const resources = {
 				"Logout": "Çıxış",
 				"Select": "Seçin",
 				"cOffer": "Reklam Elave edin",
-				"Request": "Sorğular"
+				"Request": "Sorğular",
+				"ts": "Ümumi Qiymət"
 			}
 	}
 }

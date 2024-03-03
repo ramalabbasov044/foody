@@ -2,17 +2,6 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/Admin/Products": "pages/Admin/Products.js",
-  "/api/category": "pages/api/category.js",
-  "/api/restuarants": "pages/api/restuarants.js",
-  "/client/restaurants": "pages/client/restaurants.js",
-  "/api/basket": "pages/api/basket.js",
-  "/client/basket": "pages/client/basket.js",
-  "/api/products": "pages/api/products.js",
-  "/client/about": "pages/client/about.js",
-  "/": "pages/index.js",
-  "/api/basket/delete": "pages/api/basket/delete.js",
-  "/Admin/Offer": "pages/Admin/Offer.js",
-  "/api/offer": "pages/api/offer.js",
-  "/api/offer/[id]": "pages/api/offer/[id].js"
+  "/Admin/Dashboard": "pages/Admin/Dashboard.js",
+  "/Admin/login": "pages/Admin/login.js"
 }

@@ -1,10 +1,12 @@
 import Header from "../../../shared/adminComponents/Header/Header";
 import SideBar from "../../../shared/adminComponents/SideBar/SideBar";
 
-// import { BarChart } from '@mui/x-charts/BarChart';
-// import { PieChart } from '@mui/x-charts/PieChart';
+import { BarChart } from '@mui/x-charts/BarChart';
+import { PieChart } from '@mui/x-charts/PieChart';
+import { useTranslation } from "react-i18next";
 
 const Dashboard: React.FC = () => {
+  const { t } = useTranslation()
   return (
     <div className="px-[19px] min-h-screen bg-[#1E1E30]">
       <Header />
@@ -15,11 +17,13 @@ const Dashboard: React.FC = () => {
         <div className="w-full flex justify-around gap-[30px]">
           <div className="bg-[#27283C] rounded-[14px] max-w-[472px] max-h-[472px] w-full px-[24px] py-[16px] flex text-left flex-col gap-14">
             <p className="text-[#C7C7C7] text-[20px] font-medium">
-              Order
+              {
+                t("Orders")
+              }
             </p>
 
             <div className="w-full flex justify-center items-center">
-              {/* <PieChart
+              <PieChart
                 series={[
                   {
                     data: [
@@ -31,23 +35,25 @@ const Dashboard: React.FC = () => {
                 ]}
                 width={400}
                 height={200}
-              /> */}
+              />
             </div>
           </div>
 
           <div className="bg-[#27283C] rounded-[14px] max-w-[634px] w-full px-[24px] py-[16px] flex text-left flex-col gap-10">
             <p className="text-[#C7C7C7] text-[20px] font-medium">
-              Total Salary
+                {
+                  t("ts")
+                }
             </p>
 
             <div className="w-full flex justify-center items-center">
-              {/* <BarChart
+              <BarChart
                 xAxis={[{ scaleType: 'band', data: ['group A', 'group B', 'group C'] }]}
                 series={[{ data: [4, 3, 5] }, { data: [1, 6, 3] }, { data: [2, 5, 6] }]}
                 width={500}
                 height={300}
                 className="barChart"
-              /> */}
+              />
             </div>
           </div>
         </div>

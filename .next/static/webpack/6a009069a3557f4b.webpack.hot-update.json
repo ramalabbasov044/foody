@@ -1,1 +1,0 @@
-{"c":["pages/client/about","webpack"],"r":["pages/client/restaurants"],"m":["./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?absolutePagePath=%2FUsers%2Fuser%2FDesktop%2Ffoody-app%2Fpages%2Fclient%2Frestaurants%2Findex.tsx&page=%2Fclient%2Frestaurants!","./pages/client/restaurants/index.tsx","./shared/components/RestaurantCard/index.tsx"]}
