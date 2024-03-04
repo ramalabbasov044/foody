@@ -2,6 +2,12 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/Admin/Dashboard": "pages/Admin/Dashboard.js",
-  "/Admin/Products": "pages/Admin/Products.js"
+  "/api/offer": "pages/api/offer.js",
+  "/api/restuarants": "pages/api/restuarants.js",
+  "/": "pages/index.js",
+  "/api/basket": "pages/api/basket.js",
+  "/404": "pages/404.js",
+  "/Admin/Products": "pages/Admin/Products.js",
+  "/Admin/login": "pages/Admin/login.js",
+  "/api/products": "pages/api/products.js"
 }

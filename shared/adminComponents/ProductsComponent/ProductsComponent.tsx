@@ -41,7 +41,7 @@ const ProductsComponent: FC<ProductsComponentProps> = ({ detail, deleteProduct ,
           <p className="text-left text-gray-800 text-lg font-medium leading-normal tracking-tight whitespace-nowrap overflow-x-scroll max-w-[150px]">{detail.name}</p>
           <p className="text-left font-semibold  text-neutral-400 text-sm whitespace-nowrap overflow-x-scroll max-w-[130px]">{detail.description}</p>
           <div className="flex justify-between">
-            <span className="text-teal-500">
+            <span className="text-teal-500 whitespace-nowrap overflow-x-scroll max-w-[90px]">
               {
                 detail.price
               }
