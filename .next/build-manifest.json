@@ -12,10 +12,25 @@
   ],
   "rootMainFiles": [],
   "pages": {
-    "/Admin/Dashboard": [
+    "/": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/Admin/Dashboard.js"
+      "static/chunks/pages/index.js"
+    ],
+    "/404": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/404.js"
+    ],
+    "/Admin/Products": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/Admin/Products.js"
+    ],
+    "/Admin/login": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/Admin/login.js"
     ],
     "/_app": [
       "static/chunks/webpack.js",
